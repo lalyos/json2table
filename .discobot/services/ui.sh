@@ -6,6 +6,7 @@
 #---
 
 set +x
+source ~/.bashrc 2>/dev/null || source ~/.bash_profile 2>/dev/null || true
 
 echo "Starting UI file server at http://localhost:8000"
 echo "Serving: $(pwd)"
